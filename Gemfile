@@ -58,6 +58,7 @@ group :development do
   gem 'capistrano-rails', '~> 1.3'
   gem 'capistrano-passenger'
   gem 'capistrano-bundler', '~> 1.2'
+  gem 'pry'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -112,3 +113,13 @@ gem 'devise-token_authenticatable'
 gem 'fcm'
 
 gem 'devise-security', git: 'https://github.com/devise-security/devise-security'
+
+gem "azure-storage", require: false
+
+gem 'nokogiri', '~> 1.8.4'
+
+gem 'pkg-config', '~> 1.1'
+
+gem 'prawn'
+
+gem 'prawn-table'
